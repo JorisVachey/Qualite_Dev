@@ -1,0 +1,10 @@
+{
+    "java.project.sourcePaths": [
+        ".",
+        "tp2bis/Dionysies"
+    ],
+    "java.project.referencedLibraries": [
+        "/home/iut45/Etudiants/o22401713/Téléchargements/gson-2.10.1.jar",
+        "/home/iut45/Etudiants/o22401713/Téléchargements/junit-4.13.2.jar"
+    ]
+}

@@ -31,8 +31,11 @@ class Journée {
      * @return
      */
     public int scoreTotalAuteur(Auteur a){
-        //TODO
-        return -1;
+        int score=0;
+        score += getMatin().scoreAuteur(a);
+        score += getApresMidi().scoreAuteur(a);
+        score += getSoiree().scoreAuteur(a);
+        return score;
     }
 
     /**

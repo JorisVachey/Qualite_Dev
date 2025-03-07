@@ -99,8 +99,16 @@ class Main {
     Journée j2 = new Journée(matin2, aprem2, soiree2);
 
     // Ecrivez vos tests pour la classe Journée ici
-
+int scoreSophocleJ1=0;
+scoreSophocleJ1 +=j1.getMatin().scoreAuteur(sophocle);
+scoreSophocleJ1 +=j1.getApresMidi().scoreAuteur(sophocle);
+scoreSophocleJ1 +=j1.getSoiree().scoreAuteur(sophocle);
     
+assert j1.scoreTotalAuteur(sophocle)==scoreSophocleJ1;
+assert j1.gagnant(sophocle, aristophane);
+assert !j1.gagnant(aristophane, sophocle);
+assert !j2.gagnant(sophocle, euripide);
+assert j1.joue
 
     // Gestion du tournoi
     
